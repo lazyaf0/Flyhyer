@@ -1,0 +1,737 @@
+@font-face {
+    font-family: hel;
+    src: local('Helvetica Now Display Bold'), local('Helvetica-Now-Display-Bold'),
+        url('./fonts/HelveticaNowDisplay-Bold.woff2') format('woff2'),
+        url('./fonts/HelveticaNowDisplay-Bold.woff') format('woff'),
+        url('./fonts/HelveticaNowDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+.main-body
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.landing
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bgimage
+{
+   width: 100%;
+   height: 100%;
+
+}
+body{
+    font-family:hel;
+    margin: 0;
+    width: 100%;
+}
+.right-main
+{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+.right-maincontainer
+{
+    height: 100%;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 40px;
+    flex-direction: column;
+
+}
+.left-main
+{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+.left-maincontainer
+{
+    padding-left: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+  
+.logo
+{
+    padding-top: 40px;
+    
+}
+.logoimg
+{
+    
+    width: 88%;
+}
+.header
+{
+    display: flex;
+}
+.tag
+{
+    font-size: 24px;
+    padding-bottom: 18px;
+    
+    font-weight: bold;
+}
+.header
+{
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu
+{   
+    font-family: hel-light;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 15px;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.tagline
+{
+    flex:1;
+    font-size: 62px;
+    line-height: 58px;
+}
+.book-button
+{
+    display: flex;
+    flex:8;
+    padding-top: 370px;
+    width: 75%;
+    justify-content: space-between;
+}
+.login-button
+{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.btn
+{
+    background-color: black;
+    outline:0;
+}
+
+.btn:hover
+{
+    background-color: rgb(68, 68, 68);
+    border-color:rgb(68, 68, 68);
+}
+
+.round
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.norm
+{
+    color: #fff;
+    font-family: hel;
+    font-size: 17px;
+    border-radius: 25px;
+    padding: 12px 22px;
+
+}
+#lstbtn
+{
+    padding-right:40px;
+}
+
+.sec2
+{
+    width: 100%;
+    height: 1100px;
+
+}
+.sec2-right
+{
+    float: right;
+    width: 60%;
+    height: 100%;
+}
+
+.sec2-para1
+{
+    padding-left: 20px;
+    font-size: 66px;
+    line-height: 65px;
+}
+
+.sec2-para2
+{
+    padding-left: 20px;
+}
+.h1
+{
+    padding-bottom: 10px;
+    font: bold;
+    font-size: 25px;
+}
+.solid
+{
+    border-top: 1px solid black;
+
+}
+
+
+.table1
+{
+    width: 330px;
+    padding-right: 60px;
+}
+  
+td {
+    padding: 7px 0px;
+  }
+
+  .tbl-para
+  {
+    font-size: 20px;
+    color: grey;
+    font-family: hel-light;
+  }
+
+  .space
+  {
+    padding-bottom:50px ;
+  }
+
+  .sec3
+  {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 110vh;
+    
+  }
+
+  .part1
+  {
+    position: relative;
+    flex:1;
+    height: 100%;
+    background-color: #151623;
+  }
+  .part2
+  {
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(0,0,0,0.6)), url(./images/aero.jpg);
+    position: relative;
+    overflow: hidden;
+    flex:1;
+    height: 100%;
+    background-color: rgb(251, 255, 0);
+  }
+  .part3
+  {
+    position: relative;
+    flex:1;
+    height: 100%;
+    background-color: #bc7155;
+  }
+
+  .pathimg
+  {
+    position: absolute;
+    top: 10%;
+    right: 0;
+  }
+
+  .part3text
+  {
+    font-family: hel-bold;
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    font-size: 38px;
+    color: #fff;
+  }
+  .part1text
+  {
+    font-family: hel-bold;
+    position: absolute;
+    top: 77px;
+    left: 60px;
+    font-size: 55px;
+    color: #fff;
+  }
+  .part1text2
+  {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: hel-bold;
+    position: absolute;
+    bottom: 70px;
+    left: 60px;
+    color: #fff;
+  }
+
+  .part1text3
+  {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  .part1button
+  {
+    color: #fff;
+    font-size: 20px;
+    background-color: #151623;
+    border-color: #fff;
+    border-radius: 25px;
+    padding: 10px 25px;
+  }
+  .part1button:hover
+  {
+    background-color: #ffffff;
+    color: #151623;
+  }
+  
+  ::after
+  {
+    box-sizing: inherit;
+  }
+
+  
+  .sec4
+  {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 110vh;
+  }
+
+  .sec4-content
+  {
+    display: flex;
+    flex-direction: column;
+    
+    width: 84%;
+    height: 68%;
+    margin-top: 10%;
+  }
+  .sec4-heading
+  {
+    font-family: hel-bold;
+    font-size: 55px;
+    margin-bottom: 40px;
+  }
+
+  .sec4-gallery
+  {
+    
+    display: flex;
+    gap: 40px;
+    width:100%;
+    height: 84%;
+  }
+  .gallery-left
+  {
+    flex:1;
+    overflow: hidden;
+    border-bottom-right-radius: 25px;
+  }
+  .gallery-right
+ {
+    float: left;
+    flex: 1;
+    width: 300px;
+    height: 63%;
+
+ }
+
+ .one
+ {
+    margin-right: 4%;
+    position: relative;
+    float: left;
+    width: 46%;
+    height: 80%;
+ }
+
+ .two
+ {
+    border-top: 1px solid #d5d3d4;
+ }
+
+ h4
+ {
+   font-family: hel-light;
+   font-size: 18px;
+   position: absolute;
+   bottom: 0;
+ }
+
+ .gal-top
+ {
+   font-family: hel-bold;
+   font-size: 30px;
+   position: absolute;
+   top: 2%;
+ }
+
+ span
+ {
+   font-family: hel-light;
+   font-size: 30px;
+ }
+
+ .one::after
+ {
+    content:"";
+    width: 90%;
+    height: 28px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-right: 1px solid #d5d3d4;
+    border-bottom: 1px solid #d5d3d4;
+    border-radius: 0 0 25px 0;
+ }
+
+ .sec5
+ {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+ }
+
+ .sec5-left
+ {
+    background-color: #0F0F1C;
+    background-image: url(./images/phone.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex: 1;
+    height: inherit;
+ }
+
+ .sec5-right
+ {
+    position: relative;
+    flex: 1;
+    height: inherit;
+    background-color: #151623;
+    padding-left: 60px;
+
+ }
+
+ .sec5-head
+ {
+    color: #fff;
+    font-family: hel-bold;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    font-size: 65px;
+    padding-top: 75px;
+ }
+
+ .sec5-para
+ {
+    color: #fff;
+    font-family: hel-light;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    font-size: 19px;
+    padding-bottom: 60px
+ }
+
+.sec6
+{
+    width: 95.6%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 65px;
+}
+
+.sec6-top
+{
+    width: 100%;
+    height: auto;
+    font-family: hel-bold;
+    font-size: 200px;
+    line-height: 160px;
+}
+.pp
+{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.sec6-bottom
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+}
+.sec6-bottomleft
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    height: 100%;
+}
+
+.sec6-para
+{
+    font-family: hel-light;
+    font-size: 21px;
+    width: 57%;
+   
+
+}
+.bold
+{
+    font-family: hel;
+    font-size:21px;
+}
+.sec6-bottomright
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.sec6-part
+{
+    float:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 46%;
+    padding-right: 4%;
+    margin-bottom: 32px;
+    /* gap: 20px; */
+}
+
+.sec6-img
+{
+    flex: 2;
+    width: 32%;
+}
+
+.sec6-head
+{
+    flex: 1;
+    font-family: hel-bold;
+    font-size: 25px;
+}
+
+.sec6-body
+{
+    flex: 3;
+    font-family: hel-light;
+    font-size: 21px;
+    line-height: 22px;
+}
+.ppp
+{
+ margin-top: 0;
+}
+
+.sec7
+{
+    width:100%;
+    height: 110vh;
+    align-content: center;
+
+}
+
+.sec7 img
+{
+    margin-left: 5%;
+    width:90%;
+}
+
+.sec8
+{
+   
+     width: 100%;
+     height: 80vh;
+     background-color: #fff;
+    
+     
+}
+
+.sec8-center
+{
+    text-align: center;
+    width:auto;
+    height: auto;
+    padding-top: 10%;
+}
+
+.sec8 h5
+{   
+    margin-bottom: 0;
+    font-size: 32px;
+    color: rgb(134, 134, 134);
+    line-height: 0;
+}
+
+.sec8 a
+{   
+    margin-top: 0;
+    text-decoration: none;
+    font-size: 140px;
+    color: rgb(0, 0, 0);
+}
+
+.footer
+{
+    width: 96%;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+    background-color: #0F0F1C;  
+}
+
+.footer-part1
+{   
+    padding-top: 5%;
+    width: 100%;
+    height: 15%;
+}
+
+.footer-part1-img
+{
+    width: 8%;
+    
+}
+.footer-part2
+{
+    display: flex;
+    height: 50%;
+}
+
+.part2-left
+{
+    flex: 1;
+    font-size: 25px;
+    color: #fff;
+    /* padding-right: 30%;  */
+}
+.part2-left p
+{
+    margin: 0;
+    margin-bottom: 12px;
+}
+.part2-left button
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px 25px;
+}
+.part2-icons img
+{
+    width: 12%;
+    margin: 1%;
+}
+.part2-right
+{
+    flex: 2;
+}
+
+.right-parts
+{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    height: 40%;
+}
+
+.right-parts h3
+{   
+    margin: 0;
+    color: #fff;
+    font-size: 25px;
+}
+
+.right-parts p
+{
+    margin: 0;
+    color: grey;
+    font-size: 20px;
+}
+.footer-part3
+{
+    display: flex;
+    height: 35%;
+}
+.part3-left
+{
+    flex: 1;
+}
+
+.part3-right
+{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.part3-copy
+{
+    color: #fff;
+    width: 70%;
+    font-size: 15px;
+}
+
+.part3-copy p
+{
+    font-family: hel-light;
+    color: grey;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.part3-right-top
+{
+    display: flex;
+}
+.part3-right-top p
+{
+    width: 30%;
+    font-family: hel;
+    color: grey;
+    font-size: 20px;
+}
+
+.part3-right-bottom
+{
+    font-family: hel-light;
+    color: #fff;
+    font-size: 17px;
+    padding-right: 10%;
+}

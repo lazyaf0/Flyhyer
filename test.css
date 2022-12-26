@@ -1,0 +1,30 @@
+
+.main
+{
+    width: 100vw;
+    height: 100vw;
+}
+
+.left
+{
+    float: left;
+    background-color: yellow;
+    width: 50%;
+    height: 100vh;
+}
+
+.right-top
+{
+    float: left;
+    background-color: black;
+    width: 50%;
+    height: 50vh;
+}
+
+.right-bottom
+{
+    float: left;
+    background-color: violet;
+    width: 50%;
+    height: 50vh;
+}

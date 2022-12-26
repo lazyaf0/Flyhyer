@@ -1,0 +1,16 @@
+<div class="part2-copy">
+                            <h2>© Hyer Aviation 2022</h2>
+                            <p>Hyer® HQ - Eindhoven, The Netherlands
+                                Registered on the Dutch Chamber of Commerce: 80195520</p>
+                        </div>
+
+
+                        .part2-copy h2
+{
+    font-size: 20px;
+}
+.part2-copy p
+{
+    font-family: hel;
+    font-size: 20px;
+}
